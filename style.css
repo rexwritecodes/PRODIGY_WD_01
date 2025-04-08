@@ -63,14 +63,39 @@
     outline: none;
     border-color: #f0a500;
 }
+.main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%
+}
 .container{
-    padding: 50px;
+    padding: 70px;
+    /* padding-top: 110px; */
+    align-items: center;
     margin: auto;
     background-color: #f4f4f4;
     width: 90%;
     padding-right: 10%;
     padding-left: 10%;
     min-height: 100vh;
+    display: flex;
+ 
+}
+.container-even{
+    padding: 70px;
+    /* padding-top: 110px; */
+    align-items: center;
+    margin: auto;
+    background-color: #f4f4f4;
+    width: 90%;
+    padding-right: 10%;
+    padding-left: 10%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+ 
 }
 .container h1{
     font-size: 36px;
