@@ -10,14 +10,12 @@
     <header>
       <nav class="main-nav">
         <div class="logo">
-          <span class="logo-text">NOVO</span>
+          <span class="logo">Prodigy </span>
           <div class="logo-accent"></div>
         </div>
         <ul class="nav-links">
           <li class="nav-item">
-            <a href="#" class="active"
-              ><span class="nav-indicator"></span>Home</a
-            >
+            <a href="#Home"><span class="nav-indicator"></span>Home</a>
           </li>
           <li class="nav-item">
             <a href="#About"><span class="nav-indicator"></span>About</a>
@@ -35,52 +33,67 @@
           </li>
         </ul>
         <div class="nav-right">
-          <button class="btn-primary">Get Started</button>
+          <button class="loginbtn" id="login-btn">Login</button>
         </div>
       </nav>
     </header>
     <main>
-         
-        <section>
-            <div class="container-even" id="Home">
-                <div>
-                <h1>Home</h1>
-                <p>This is the Home section</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container" id="About">
-                <div>
-                <h1>About</h1>
-                <p>This is the About section</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container-even" id="Services">
-                <div>
-                <h1>Services</h1>
-                <p>This is the Services section</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container" id="Portfolio">
-                <div>
-                <h1>Portfolio</h1>
-                <p>This is the Portfolio section</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container-even" id="Contact">
-                <div>
-                <h1>Contact</h1>
-                <p>This is the Contact section</p>
-                </div>
-            </div>
-        </section>
+      <section>
+        <div class="container-even" id="Home">
+          <div>
+            <h1>Home</h1>
+            <p>This is the Home section</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container" id="About">
+          <div>
+            <h1>About</h1>
+            <p>This is the About section</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-even" id="Services">
+          <div>
+            <h1>Services</h1>
+            <p>This is the Services section</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container" id="Portfolio">
+          <div>
+            <h1>Portfolio</h1>
+            <p>This is the Portfolio section</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-even" id="Contact">
+          <div>
+            <h1>Contact</h1>
+            <p>This is the Contact section</p>
+          </div>
+        </div>
+      </section>
     </main>
+    <div class="model">
+      <div class="login-card">
+        <input type="text" class="input" placeholder="Username" id="username" />
+        <input
+          type="password"
+          class="input"
+          placeholder="Password"
+          id="password"
+        />
+        <div>
+          <button class="loginbtn" id="login-btn">Login</button>
+          <button class="closebtn" id="close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+     <script src="script.js" defer></script>
   </body>
 </html>
